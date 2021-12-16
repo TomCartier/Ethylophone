@@ -1,0 +1,283 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+/* --------- HEADER ----------*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 50px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navmenu a{
+    margin-left: 100px;
+}
+
+.navmenu{
+    margin-right: 300px;
+}
+
+.navlog ul li{
+    margin-left: 20px;
+}
+
+
+
+.boutonlog{
+    color: white;
+    background-color: black;
+    padding: 11px;
+    border-radius: 10px;
+    
+}
+
+.boutonlog:hover{
+    color: black;
+    background-color: #F2AF19;
+}
+
+/* --------- HEADER ----------*/
+
+/* --------- MAIN ----------*/
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size:48px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+ul.description{
+    display: inline-block;
+    list-style: circle;
+}
+
+.prix{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+img{
+    width: 700px;
+}
+
+.colonne1{
+    margin-right:150px;
+    margin-top: 70px;
+}
+
+select{
+    margin-left: 30px;
+    border-radius: 7px;
+    width: 148px;
+    height: 34px;
+    align-self: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+select:hover{
+    cursor:pointer;
+    background-color: #F2AF19;
+    border:none;
+}
+
+option{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.add{
+    background-color: black;
+    padding: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add:hover{
+    background-color: #F2AF19;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+/* --slider-- */
+#slider {
+    position: relative;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    color:#F2AF19 ;
+}
+
+
+/* --slider-- */
+
+
+
+/* --------- MAIN ----------*/
+
+/* --------- FOOTER ----------*/
+
+footer{
+    background: black;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.haut{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.reseau{
+    margin-left: 75px;
+}
+
+.carte{
+    margin-right: 75px;
+}
+
+.logocarte{
+    height: 30px;
+    width: 43.34px;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+
+.logoreseaufb{
+    height: 30px;
+    width: 15px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseauinsta{
+    height: 30px;
+    width: 29.43px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseautwitter{
+    height: 30px;
+    width: 36.91px;
+    margin-top: 70px;
+    padding-right: 100px;
+}
+
+.logoethylophone{
+    height: 100px;
+    width: 65.08px;
+    margin-top: 30px;
+}
+
+.horizontalline{
+    margin-top: 50px;
+    background-color: white;
+}
+
+.ftnav{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.ftnav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+.bas{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.politique{
+    margin-left: 373px;
+}
+
+.bas a{
+    text-decoration: none;
+    color: white;
+}
+
+/* --------- FOOTER ----------*/

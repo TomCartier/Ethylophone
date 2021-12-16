@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethylophone</title>
+    <link rel="stylesheet" href="produit.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/logo_sans_baseline.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="app.js"></script>
+    
+</head>
+<body>
+        
+    <header>
+        <div class="header">
+            <a href="accueil.html"><img class="logo" src="images/logo_avec_baseline.png" alt="logo de éthylophone"></a>
+        
+        <nav class="navmenu">
+            <ul>
+                <li>
+                    <a href="accueil.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="produit.html">Produit</a>
+                </li>
+                <li>
+                    <a href="application.html">Application</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navlog">
+            <ul>
+                <li>
+                    <a href="profil.html">Se connecter</a>
+                </li>
+                <li>
+                    <a class="boutonlog" href="profil.html">S'inscrire</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+
+        <main>
+        
+        <div class="colonne1">
+
+        <h1>Ethylophone</h1>
+
+            <p>
+                 Ethylotest connecté homologué à la norme NF EN 16280
+            </br>
+                 Fonctionne en le couplant au smartphone (IOS ou Androïd)
+                <ul class="description">
+                    <li>Capteur électrochimique expert.</li>
+                    <li>Précision de ± 5% à 1 g/L (soit 0,5 mg/l) à 25°C</li>
+                    <li>Garantie 2 Ans</li>
+                    <li>Livré avec pochette et prêt à l'emploi</li>
+                    <li>Chez vous en 48H</li>
+                </ul>
+            </p>
+
+
+            <div class="prix">
+            <h2>60 €</h2>
+    
+            <select name="produit" id="produit">
+                <option placeholder="">Choisir</option>
+                <option value="apple">Apple</option>
+                <option value="univ">Universel</option>
+            </select>
+
+            </div>
+
+            <a class="add" href="profil.html">Ajouter au panier</a>
+
+        </div>
+
+        <div class="colonne2">
+
+            <div id="slider">
+                <img class="active" src="/Images/proto_apple (1).png" alt="ethylophone pour iphone" id="slide">
+                <div id="precedent" onclick="ChangeSlide(-1)"><i class="fas fa-angle-left"></i></div>
+                <div id="suivant" onclick="ChangeSlide(1)"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+        </main>
+</body>
+
+<footer>
+    <div class="haut">
+        <div class="reseau">
+            <a href="https://facebook.com/" target="_blank" ><img class="logoreseaufb" src="Images/logo_fb (1).png" alt="logo FB"></a> 
+            <a href="https://instagram.com/" target="_blank" ><img class="logoreseauinsta" src="Images/logo_insta (1).png" alt="logo Insta"></a> 
+            <a href="https://twitter.com/" target="_blank" ><img class="logoreseautwitter" src="Images/TwitterLogo.png" alt="Logo Twitter"></a> 
+        </div>
+        <div class="logoblanc">
+            <a href=""><img class="logoethylophone" src="/Images/ethylophonefullblanc.png" alt="Logo ethylophone"></a> 
+        </div>
+        <div class="carte">
+            <img class="logocarte" src="Images/logo_maestro.png" alt="Logo Maestro">
+            <img class="logocarte" src="Images/logo_mastercard.png" alt="Logo Mastercard">
+            <img class="logocarte" src="Images/logo_visa.png" alt="Logo Visa">
+            <img class="logocarte" src="Images/logo_cb.png" alt="Logo CB">
+        </div>
+    </div>
+    
+    <hr class="horizontalline" width=1280>
+
+        <div class="ftnav">
+            <a href="accueil.html">Accueil</a>
+            <a href="produit.html">Produit</a>
+            <a href="application.html">Application</a>
+        </div>
+            <a class="mentions" href="" target="_blank" >Mentions Légales</a>
+
+        <div class="bas">
+            <a class="certif" href="">© 2021 Ethylophone</a>
+            <a class="politique" href="" target="_blank" >Politique de Confidentialité</a>
+        </div>
+</footer>
+</html>

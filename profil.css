@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,300;1,700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+/* --------- HEADER ----------*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 50px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navmenu a{
+    margin-left: 100px;
+}
+
+.navmenu{
+    margin-right: 300px;
+}
+
+.navlog ul li{
+    margin-left: 20px;
+}
+
+.seconnecter{
+    color: white;
+}
+
+.boutonlog{
+    color: white;
+    background-color: white;
+    padding: 11px;
+    border-radius: 10px;
+    
+}
+
+/* --------- HEADER ----------*/
+
+/* --------- MAIN ----------*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+input{
+    border-radius: 7px;
+    border: solid 1px #8C8888;
+    background-color:#F8F8F8 ;
+    width: 280px;
+    height: 50.25px;
+    margin-top: 17px;
+}
+
+input[type="text"]{
+    font-size: 16px;
+    color:#797979 ;
+    padding-left: 20px;
+    font-family:'Montserrat';
+    font-style:italic;
+}
+
+input[type="password"]{
+    font-size: 16px;
+    color:#797979 ;
+    padding-left: 20px;
+    font-family:'Montserrat';
+    font-style:italic;
+}
+
+
+.form1{
+    display: flex;
+    flex-direction:column;
+    margin-left: 200px;
+}
+
+.login1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+span.verticalline{
+    height: 400px;
+    justify-content: center;
+    margin-top: 30px;
+    border-right: 1px solid black;
+}
+
+.login2{
+    display: flex;
+    flex-direction: column;
+}
+
+.form2{
+    display: flex;
+    flex-direction:column;
+    margin-right: 200px;
+}
+
+button{
+    padding: 10px;
+    margin-top:42px ;
+    border-radius:34px ;
+    width: 141.25px;
+    height: 50px;
+    background-color: #F2AF19;
+    border: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    color:#F2AF19;
+    background-color: black;
+}
+
+label{
+    position: relative;
+}
+  
+label input{
+    font-size: 1em;
+    color: #f9f9f9;
+    background: transparent;
+    padding: 1rem 1.2rem;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #7a7a7a;
+    transition: all 0.2s;
+}
+
+label input:focus{
+    border-color: #ff4754;
+}
+
+label .password-icon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    color: #f9f9f9;
+    transition: all 0.2s;
+}
+
+label .password-icon:hover{
+    cursor: pointer;
+    color: #ff4754;
+}
+  
+  label .password-icon .feather-eye-off{
+    display: none;
+}
+
+
+/* --------- MAIN ----------*/
+
+/* --------- FOOTER ----------*/
+
+footer{
+    background: black;
+    height: 450px;
+    margin-top: 170px;
+}
+
+.haut{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.reseau{
+    margin-left: 75px;
+}
+
+.carte{
+    margin-right: 75px;
+}
+
+.logocarte{
+    height: 30px;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+
+.logoreseaufb{
+    height: 30px;
+    width: 15px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseauinsta{
+    height: 30px;
+    width: 29.43px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseautwitter{
+    height: 30px;
+    width: 36.91px;
+    margin-top: 70px;
+    padding-right: 100px;
+}
+
+.logoethylophone{
+    height: 100px;
+    width: 65.08px;
+    margin-top: 30px;
+}
+
+.horizontalline{
+    margin-top: 50px;
+    background-color: white;
+}
+
+.ftnav{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.ftnav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+.bas{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.politique{
+    margin-left: 373px;
+}
+
+.bas a{
+    text-decoration: none;
+    color: white;
+}
+
+/* --------- FOOTER ----------*/

@@ -1,0 +1,208 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+/* --------- HEADER ----------*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 50px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navmenu a{
+    margin-left: 100px;
+}
+
+.navmenu{
+    margin-right: 300px;
+}
+
+.navlog ul li{
+    margin-left: 20px;
+}
+
+
+
+.boutonlog{
+    color: white;
+    background-color: black;
+    padding: 11px;
+    border-radius: 10px;
+    
+}
+
+.boutonlog:hover{
+    color: black;
+    background-color: #F2AF19;
+}
+
+/* --------- HEADER ----------*/
+
+/* --------- MAIN ----------*/
+
+main{
+    margin-bottom: 300px;
+}
+
+.groupe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gens{
+    height: 550px;
+    width: 650px;
+    margin-right: 10px;
+}
+
+.colone1{
+    align-self: flex-end;
+    margin-bottom: 100px ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ethylophone{
+    font-size: 60px;
+}
+
+.texte{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.bouton{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+}
+
+.bouton:hover{
+    color: black;
+    background-color: #F2AF19;
+}
+
+
+/* --------- MAIN ----------*/
+
+/* --------- FOOTER ----------*/
+
+footer{
+    background: black;
+    height: 450px;
+}
+
+.haut{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.reseau{
+    margin-left: 75px;
+}
+
+.carte{
+    margin-right: 75px;
+}
+
+.logocarte{
+    height: 30px;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+
+.logoreseaufb{
+    height: 30px;
+    width: 15px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseauinsta{
+    height: 30px;
+    width: 29.43px;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.logoreseautwitter{
+    height: 30px;
+    width: 36.91px;
+    margin-top: 70px;
+    padding-right: 100px;
+}
+
+.logoethylophone{
+    height: 100px;
+    width: 65.08px;
+    margin-top: 30px;
+}
+
+.horizontalline{
+    margin-top: 50px;
+    background-color: white;
+}
+
+.ftnav{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.ftnav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+.bas{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.politique{
+    margin-left: 373px;
+}
+
+.bas a{
+    text-decoration: none;
+    color: white;
+}
+/* --------- FOOTER ----------*/
